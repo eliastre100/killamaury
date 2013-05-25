@@ -3,6 +3,8 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-15" />
 		<title>ID minecraft - Killamaury</title>
+		<?php mysql_connect('localhost', 'root', '');
+		mysql_select_db('Killamaury'); ?>
 	</head>
 	<body>
 		<a href="id_minecraft.php?id=0">Air</a><br />
@@ -40,5 +42,22 @@
 		<a href="id_minecraft.php?id=32">Arbuste mort</a><br />
 		<a href="id_minecraft.php?id=33">Piston</a><br />
 		<a href="id_minecraft.php?id=34">Tige de piston</a><br />
+		<a href="id_minecraft.php?id=35">Laine (wool)</a><br />
+		<a href="id_minecraft.php?id=36">Bloc déplacé par un piston</a><br />
+		<a href="id_minecraft.php?id=37">Pissenlit</a><br />
+		<a href="id_minecraft.php?id=38">Rose</a><br />
+		<a href="id_minecraft.php?id=39">Champignon brun (brown mushroom)</a><br />
+
+<br /><br /><br /><!-- a enlever -->
+		<div class="Block/item minecraft">
+			<?php $slq="SELECT * FROM id_minecraft WHERE id=".$_GET['id'];
+			$req=mysql_query($slq);
+			while ($data=mysql_fetch_assoc($req)) {
+				echo $data['name'];?> id: <?php echo $_GET['id'];?><br /><?php 
+				echo $data['description'];?><br /><img src="images/id_minecraft/img_<?php echo $_GET['id']; ?>.png" />
+				<img src="images/id_minecraft/craft_<?php echo $_GET['id']; ?>.png"<?php 
+			}?>
+		</div>
+	<?php mysql_close(); ?>
 	</body>
 </HTML>
