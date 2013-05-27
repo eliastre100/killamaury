@@ -47,6 +47,10 @@
 		<a href="id_minecraft.php?id=37">Pissenlit</a><br />
 		<a href="id_minecraft.php?id=38">Rose</a><br />
 		<a href="id_minecraft.php?id=39">Champignon brun (brown mushroom)</a><br />
+		<a href="id_minecraft.php?id=40">Champignon rouge (mushrooms)</a><br />
+		<a href="id_minecraft.php?id=41">Bloc d'or (gold block)</a><br />
+		<a href="id_minecraft.php?id=42">Bloc de fer (iron block)</a><br />
+		<a href="id_minecraft.php?id=43">Double dalle (double slabs)</a><br />
 
 <br /><br /><br /><!-- a enlever -->
 		<div class="Block/item minecraft">
