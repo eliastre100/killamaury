@@ -3,8 +3,9 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-15" />
 		<title>ID minecraft - Killamaury</title>
-		<?php mysql_connect('db472476053.db.1and1.com', 'dbo472476053', 'eliastre');
-		mysql_select_db('db472476053'); ?>
+		<link rel="stylesheet" type="text/css" href="style/style_id.css">
+		<?php mysql_connect('localhost', 'root', '');
+		mysql_select_db('Killamaury'); ?>
 	</head>
 	<body>
 		<?php $sql="SELECT * FROM id_minecraft_name";
