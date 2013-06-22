@@ -111,3 +111,14 @@ a{
 	background-color: grey;
 	border-radius: 3px;
 }
+
+.game_title{
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.game{
+	background-color: grey;
+}
