@@ -1,6 +1,7 @@
 <?php session_start(); ?>
 <!DOCTYPE HTML>
 	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=unicode" />
 		<title>Ajouter des elements - Killmaury</title>
 		<?php mysql_connect('localhost','root','');
 		mysql_select_db('killamaury'); ?>

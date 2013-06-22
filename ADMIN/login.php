@@ -2,6 +2,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=unicode" />
 		<title>Connexion - Killamaury</title>
 		<?php mysql_connect('localhost','root','');
 		mysql_select_db('killamaury'); ?>

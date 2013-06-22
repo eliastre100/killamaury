@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-15" />
+		<meta http-equiv="Content-Type" content="text/html; charset=unicode" />
 		<title>Espace admin - Killamaury</title>
 	</head>
 	<body>

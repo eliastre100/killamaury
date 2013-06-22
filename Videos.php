@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-15" />
+		<meta http-equiv="Content-Type" content="text/html; charset=unicode" />
 		<link rel="stylesheet" type="text/css" href="style/style_site.css">
 		<title>Videos - killamaury</title>
 		<?php mysql_connect('localhost','root','');
