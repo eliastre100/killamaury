@@ -1,6 +1,7 @@
 <?php session_start(); ?>
 <!DOCTYPE HTML>
 	<head>
+		<link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
 		<meta http-equiv="Content-Type" content="text/html; charset=unicode" />
 		<title>Ajouter des elements - Killmaury</title>
 		<?php mysql_connect('localhost','root','');

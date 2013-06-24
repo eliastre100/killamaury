@@ -2,6 +2,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+		<link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
 		<meta http-equiv="Content-Type" content="text/html; charset=unicode" />
 		<title>Espace admin - Killamaury</title>
 	</head>

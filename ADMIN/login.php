@@ -2,6 +2,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+		<link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
 		<meta http-equiv="Content-Type" content="text/html; charset=unicode" />
 		<title>Connexion - Killamaury</title>
 		<?php mysql_connect('localhost','root','');
@@ -28,7 +29,7 @@
 			<?php } ?>
 				
 		<?php }elseif(!empty($_SESSION['pseudo'])){ ?>
-			Vous avez bien ete deconnecter. <a href="http://killamaury.fr">Retour au site</a>
+			Vous avez bien ete deconnecter. <a href="http://killamaury.be">Retour au site</a>
 			<?php session_destroy();
 		} ?>
 

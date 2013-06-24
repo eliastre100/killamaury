@@ -1,6 +1,7 @@
 <!DOCTYPE html> 
 <html>
 	<body>
+		<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
 		<meta http-equiv="Content-Type" content="text/html; charset=unicode" />
 		<title>news - Killamaury</title>
 		<link rel="stylesheet" type="text/css" href="style/style_site.css">

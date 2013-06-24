@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <HTML>
 	<head>
+		<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-15" />
 		<title>ID minecraft - Killamaury</title>
 		<link rel="stylesheet" type="text/css" href="style/style_id.css">

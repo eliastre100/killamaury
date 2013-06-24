@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+		<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
 		<meta http-equiv="Content-Type" content="text/html; charset=unicode" />
 		<title>Contact - Killamaury</title>
 		<link rel="stylesheet" type="text/css" href="style/style_site.css">
