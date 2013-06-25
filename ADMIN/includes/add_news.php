@@ -9,8 +9,8 @@ p
 	text-align: center;
 }
 </style>
-<?php if(!empty($_SESSION['grade'])){ ?>
-	<?php if($_SESSION['grade'] >= 1){ ?>
+<?php if(!empty($_SESSION['rights'])){ ?>
+	<?php if($_SESSION['rights'] >= 1){ ?>
 		<?php if(empty($_POST['title']) AND empty($_POST['news'])){ ?>
 			<form action="administration.php?page=add_news.php" method="post">
 				<input type="text" name="title" /><br />

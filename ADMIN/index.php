@@ -12,10 +12,15 @@
 		<?php if(empty($_SESSION['username'])){
 			include('includes/login.php');
 		}else{
-			if($_SESSION['rights']<1){
+			if($_SESSION['rights']< 1){
 				echo 'Votre demande n\'a pas encore été acceptée !<br />';
-			}elseif($_SESSION['rights']>=1){
+			}elseif($_SESSION['rights']>= 1){
 				echo "<a href='administration.php?page=add_news.php'>Ajouter des news.</a><br />";
+				if($_SESSION['rights'] >= 2){
+					if($_SESSION['rights'] >= 4){
+						echo "<a href='administration.php?page=update_news.php'>Modifier une news</a><br />";					
+					}
+				}
 			}
 			echo '<a href="includes/login.php">Se deconecter</a>';
 		}?>
