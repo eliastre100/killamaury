@@ -1,23 +1,24 @@
 <?php session_start(); ?>
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 	<head>
+		<title>Espace admin - Killamaury</title>
 		<link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
 		<meta http-equiv="Content-Type" content="text/html; charset=unicode" />
-		<title>Espace admin - Killamaury</title>
+		<?php mysql_connect('127.0.0.1', 'root', '');
+		mysql_select_db('killamaury'); ?>
 	</head>
 	<body>
-		<?php if (empty($_SESSION['pseudo'])) { ?>
-			<form method="post" action="login.php">
-				Pseudo : <input type='text' name='pseudo' /><br />
-				Mot de passe : <input type="password" name="password" /><br />
-				<input type="submit" value="Se connecter" method="post" action="login.php" />
-			</form>
-		<?php }elseif(!empty($_SESSION['pseudo'])){ ?>
-			<a href="add.php">Ajouter des elements.</a><br />
-			<a href="update.php">Modifier des elements.</a><br />
-			<a href="remove.php">Suprimer des elements</a><br /><br />
-			<a href="login.php">Se deconnecter</a>
-		<?php } ?>
+		<?php if(empty($_SESSION['username'])){
+			include('includes/login.php');
+		}else{
+			if($_SESSION['rights']<1){
+				echo 'Votre demande n\'a pas encore été acceptée !<br />';
+			}elseif($_SESSION['rights']>=1){
+				echo "<a href='administration.php?page=add_news.php'>Ajouter des news.</a><br />";
+			}
+			echo '<a href="includes/login.php">Se deconecter</a>';
+		}?>
+		<?php mysql_close(); ?>
 	</body>
 </html>
