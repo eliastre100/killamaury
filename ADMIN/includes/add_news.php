@@ -25,7 +25,9 @@ p
 				<input type="submit" value="ajouter" />
 			</form>
 		<?php }elseif(!empty($_POST['title']) AND !empty($_POST['news'])){
-			$req = "INSERT INTO news VALUES ('', '".$_SESSION['username']."', '".$_POST['title']."', '".$_POST['news']."')";
+			$title = addslashes($_POST['title']);
+			$news = addslashes($_POST['news']);
+			$req = "INSERT INTO news VALUES ('', '".$_SESSION['username']."', '".$title."', '".$news."')";
 			if(mysql_query($req)){ ?>
 				<p id="dynamique"></p>
 				<script type="text/javascript">
