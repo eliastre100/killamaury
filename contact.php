@@ -14,7 +14,10 @@
 				<?php if (!empty($_POST['pseudo']) AND !empty($_POST['email']) AND !empty($_POST['message'])) { 
 					$message='Un message de '.$_POST['pseudo'].' (email : '.$_POST[email].' ) \n'.$_POST['message'];
 					echo $message;
-					mail('TON_EMAIL', "Un message d'un internaute", message);?>
+					extract($_POST);
+					$to = "EMAIL DU WEBMASTER";
+					$header = "From: ".$pseudo." <".$email."> \n";
+					mail($to, "Un message d'un internaute : $pseudo", $message, $header);?>
 					Le message a bien ete envoyer a Killamaury merci de ton message.
 				<?php }else{ ?>
 					<form method="post">

@@ -17,12 +17,18 @@
 			}elseif($_SESSION['rights']>= 1){
 				echo "<a href='administration.php?page=add_news.php'>Ajouter des news.</a><br />";
 				if($_SESSION['rights'] >= 2){
-					if($_SESSION['rights'] >= 4){
-						echo "<a href='administration.php?page=update_news.php'>Modifier une news</a><br />";					
+					if($_SESSION['rights'] >= 3){
+						echo "<br />";
+						echo "<a href='administration.php?page=update_news.php'>Modifier une news</a><br />";
+						echo "<a href='administration.php?page=remove_news.php'>Suprimer des news</a><br />";
+						if($_SESSION['rights'] >= 4){
+							echo '<br />';
+							echo '<a href="administration.php?page=accept_users.php">Gerer les demandes d\'utilisateurs</a><br />';
+						}					
 					}
 				}
 			}
-			echo '<a href="includes/login.php">Se deconecter</a>';
+			echo '<br /><a href="includes/login.php">Se deconecter</a>';
 		}?>
 		<?php mysql_close(); ?>
 	</body>
