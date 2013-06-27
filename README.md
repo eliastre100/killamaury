@@ -6,17 +6,17 @@ Website of killamaury
 ===========
 Fonctionalitées actuel:
 -Affichage des news dans la partie publique;<br />
--Affichage des videos dans la partie publique;
--Affichage des jeux dans la partie publique;
--Formulaire de contact par mail dans la parte publique;
--Systeme de creation de compte admin;
--Systeme d'ajout de news dans la partie admin;
--Systeme de modification de news dans la partie admin;
--Systeme de suppresion des news dans la partie admin;
--Systeme d'acceptation/refus des candidatures dans l'espace admin;
--Systeme de grade;
--Systeme de connexion/deconnexion pour accerder a l'espace admin;
--Interface css de la partie publique;
+-Affichage des videos dans la partie publique;<br />
+-Affichage des jeux dans la partie publique;<br />
+-Formulaire de contact par mail dans la parte publique;<br />
+-Systeme de creation de compte admin;<br />
+-Systeme d'ajout de news dans la partie admin;<br />
+-Systeme de modification de news dans la partie admin;<br />
+-Systeme de suppresion des news dans la partie admin;<br />
+-Systeme d'acceptation/refus des candidatures dans l'espace admin;<br />
+-Systeme de grade;<br />
+-Systeme de connexion/deconnexion pour accerder a l'espace admin;<br />
+-Interface css de la partie publique;<br />
 
 ===========
 Fonctionalitées a venir:
