@@ -5,7 +5,7 @@ Website of killamaury
 
 ===========
 Fonctionalitées actuel:
--Affichage des news dans la partie publique;<br />
+-Affichage des news dans la partie publique;\n
 -Affichage des videos dans la partie publique;
 -Affichage des jeux dans la partie publique;
 -Formulaire de contact par mail dans la parte publique;
