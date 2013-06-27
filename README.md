@@ -19,12 +19,12 @@ Fonctionalitées actuel:
 -Interface css de la partie publique;<br />
 
 ===========
-Fonctionalitées a venir:
--Systeme d'ajout de video dans la partie admin;
--Systeme de modification des videos dans la partie admin;
--Systeme de supression des videos dans la partie admin;
--Systeme d'ajout de jeux dans la partie admin;
--Systeme de modification des jeux des jeux dans la partie admin;
--Systeme de supression des jeux dans la partie admin;
--Interface css pour la partie admin;
--Refonte du site en POO;
+Fonctionalitées a venir:<br />
+-Systeme d'ajout de video dans la partie admin;<br />
+-Systeme de modification des videos dans la partie admin;<br />
+-Systeme de supression des videos dans la partie admin;<br />
+-Systeme d'ajout de jeux dans la partie admin;<br />
+-Systeme de modification des jeux des jeux dans la partie admin;<br />
+-Systeme de supression des jeux dans la partie admin;<br />
+-Interface css pour la partie admin;<br />
+-Refonte du site en POO;<br />
